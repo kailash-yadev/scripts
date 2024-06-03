@@ -1,1 +1,1 @@
-# my-scripts
+# scripts
