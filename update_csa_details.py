@@ -14,8 +14,7 @@ TRUSTEE_ACCOUNT_ID = "282711413064"
 
 # TODO: Need to update the mapping of uuid to account id of the account updated during credentialing
 # { "uuid" : "account_id" }
-UUID_MAPPING = {"00001": '820842078405',
-                "00002": '201226217129'}
+# /uuid_account_mapping.json
 
 
 def _read_json_file(file_path):
@@ -89,9 +88,11 @@ def main():
     # Connect to the database
     conn = connect_to_db()
 
+    # Read UUID AccountID Mapping
+    uuid_mapping = _read_json_file('./uuid_account_mapping.json')
     # Insert data into the dynamodb for the given uuid of the record
     try:
-        for uuid, account_id in UUID_MAPPING.items():
+        for uuid, account_id in uuid_mapping.items():
             trustee_id, role_name, external_id = (accounts_data.get(account_id))
             update_account_data(conn, uuid, trustee_id, role_name, external_id)
             print(get_updated_record(conn, uuid))
@@ -102,7 +103,13 @@ def main():
 if __name__ == "__main__":
     main()
 
+"""
+Prerequisites:
+Update the mapping of uuid to account id of the account updated during credentialing here "./uuid_account_mapping.json"
+ex: { "uuid" : "account_id" }
 
-# Sample table Items after update
-# {'TrusteeID': {'S': '282711413064'}, 'RoleName': {'S': 'all-lsc-host-cloudability-csa-role-1'}, 'UUID': {'S': '00001'}, 'ExternalID': {'S': 'ext-e7rss8g685'}}
-# {'TrusteeID': {'S': '282711413064'}, 'RoleName': {'S': 'Share-Cloudwiry-Read-Role'}, 'UUID': {'S': '00002'}, 'ExternalID': {'S': 'CW_AiuYTgyI'}}
+
+Sample table Items after update"
+{'TrusteeID': {'S': '282711413064'}, 'RoleName': {'S': 'all-lsc-host-cloudability-csa-role-1'}, 'UUID': {'S': '00001'}, 'ExternalID': {'S': 'ext-e7rss8g685'}}
+{'TrusteeID': {'S': '282711413064'}, 'RoleName': {'S': 'Share-Cloudwiry-Read-Role'}, 'UUID': {'S': '00002'}, 'ExternalID': {'S': 'CW_AiuYTgyI'}}
+"""
