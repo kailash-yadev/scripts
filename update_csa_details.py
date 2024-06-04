@@ -1,12 +1,21 @@
 import json
+import boto3
 
-DB_CONFIG = {}
+# CONSTANTS
+# Note: Update the Constants with your specs
+ENDPOINT_URL = "http://localhost:8000"
+TABLE_NAME = "Accounts"
+PARTITION_KEY = "UUID"
+PARTITION_KEY_TYPE = "S"
+ROLE_NAME_ATTRIBUTE = "RoleName"
+EXTERNAL_ID_ATTRIBUTE = "ExternalID"
+TRUSTEE_ID_ATTRIBUTE = "TrusteeID"
+TRUSTEE_ACCOUNT_ID = "282711413064"
 
+# TODO: Need to update the mapping of uuid to account id of the account updated during credentialing
 # { "uuid" : "account_id" }
 UUID_MAPPING = {"00001": '820842078405',
-                "00002": '375971864783'}
-
-TRUSTEE_ACCOUNT_ID = "TRUSTEE_ACCOUNT_ID"
+                "00002": '201226217129'}
 
 
 def _read_json_file(file_path):
@@ -40,15 +49,32 @@ def extract_account_data(customer_data):
     return accounts_data
 
 
-def connect_to_db(config):
-    # TODO: Create dynamodb client
-    conn = "dynamodb_connect"
+def connect_to_db():
+    conn = boto3.client('dynamodb', endpoint_url=ENDPOINT_URL)
     return conn
 
 
 def update_account_data(conn, uuid, trustee_id, role_name, external_id):
-    # TODO: Implement dynamodb update operation for columns trustee_id, role_name, external_id
-    print(f"{uuid}: {trustee_id}, {role_name}, {external_id}")
+    update_expression = "SET #attr1 = :val1, #attr2 = :val2, #attr3 =:val3"
+    expression_attribute_names = {"#attr1": ROLE_NAME_ATTRIBUTE, "#attr2": EXTERNAL_ID_ATTRIBUTE, "#attr3": TRUSTEE_ID_ATTRIBUTE}
+    expression_attribute_values = {":val1": {"S": role_name}, ":val2": {"S": external_id}, ":val3": {"S": trustee_id}}
+    key = {PARTITION_KEY: {PARTITION_KEY_TYPE: uuid}}
+    conn.update_item(
+        TableName=TABLE_NAME,
+        Key=key,
+        UpdateExpression=update_expression,
+        ExpressionAttributeNames=expression_attribute_names,
+        ExpressionAttributeValues=expression_attribute_values
+    )
+
+
+def get_updated_record(conn, uuid):
+    key = {PARTITION_KEY: {PARTITION_KEY_TYPE: uuid}}
+    response = conn.get_item(
+        TableName=TABLE_NAME,
+        Key=key
+    )
+    return response.get("Item")
 
 
 def main():
@@ -61,17 +87,22 @@ def main():
     accounts_data = extract_account_data(all_customer_data)
 
     # Connect to the database
-    conn = connect_to_db(DB_CONFIG)
+    conn = connect_to_db()
 
     # Insert data into the dynamodb for the given uuid of the record
-    for uuid, account_id in UUID_MAPPING.items():
-        trustee_id, role_name, external_id = (accounts_data.get(account_id))
-        try:
+    try:
+        for uuid, account_id in UUID_MAPPING.items():
+            trustee_id, role_name, external_id = (accounts_data.get(account_id))
             update_account_data(conn, uuid, trustee_id, role_name, external_id)
-        finally:
-            pass
-            # conn.close()
+            print(get_updated_record(conn, uuid))
+    finally:
+        del conn
 
 
 if __name__ == "__main__":
     main()
+
+
+# Sample table Items after update
+# {'TrusteeID': {'S': '282711413064'}, 'RoleName': {'S': 'all-lsc-host-cloudability-csa-role-1'}, 'UUID': {'S': '00001'}, 'ExternalID': {'S': 'ext-e7rss8g685'}}
+# {'TrusteeID': {'S': '282711413064'}, 'RoleName': {'S': 'Share-Cloudwiry-Read-Role'}, 'UUID': {'S': '00002'}, 'ExternalID': {'S': 'CW_AiuYTgyI'}}
