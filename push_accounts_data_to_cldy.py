@@ -20,7 +20,7 @@ def extract_data(json_data):
     for org in json_data:
         org_id = org.get('org_id')
         for account in org.get('data'):
-            parent_account = account.get('parent_account')
+            parent_account = account.get('parent')
             # parent account details
             if parent_account is not None:
                 account_id, role_arn, external_id = _get_account_details(parent_account)

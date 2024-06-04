@@ -1,0 +1,2621 @@
+[
+    {
+        "org_id": 128851,
+        "name": "cepheid.com",
+        "environment_id": "0a25f449-2cae-5c9e-2786-fbdd64ce1e74",
+        "data": [
+            {
+                "parent": {
+                    "account_id": "788915724807",
+                    "alias": "Cepheid Master Account",
+                    "role_arn": "arn:aws:iam::788915724807:role/csa-payer-write",
+                    "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                },
+                "children": [
+                    {
+                        "account_id": "018148950948",
+                        "alias": "cep-aws",
+                        "role_arn": "arn:aws:iam::018148950948:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "038301391979",
+                        "alias": "Audit",
+                        "role_arn": "arn:aws:iam::038301391979:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "106009679789",
+                        "alias": "IT-Non-Vald-DR",
+                        "role_arn": "arn:aws:iam::106009679789:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "108405464763",
+                        "alias": "IT-VALD-Non-PROD",
+                        "role_arn": "arn:aws:iam::108405464763:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "149380046264",
+                        "alias": "IT-Quality-Non-PROD",
+                        "role_arn": "arn:aws:iam::149380046264:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "174497171736",
+                        "alias": "cep-awsinfoseclabdl",
+                        "role_arn": "arn:aws:iam::174497171736:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "271046613635",
+                        "alias": "Log archive",
+                        "role_arn": "arn:aws:iam::271046613635:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "275739692550",
+                        "alias": "IT-Quality-PROD",
+                        "role_arn": "arn:aws:iam::275739692550:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "353554608351",
+                        "alias": "IT-Network",
+                        "role_arn": "arn:aws:iam::353554608351:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "359895810130",
+                        "alias": "IT-SW-Eng-Non-PROD",
+                        "role_arn": "arn:aws:iam::359895810130:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "388977026220",
+                        "alias": "Cepheid C360 Prod",
+                        "role_arn": "arn:aws:iam::388977026220:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "395622124951",
+                        "alias": "IT-DR",
+                        "role_arn": "arn:aws:iam::395622124951:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "406715093344",
+                        "alias": "IT-Analytics-Non-PROD",
+                        "role_arn": "arn:aws:iam::406715093344:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "421435808696",
+                        "alias": "IT-Experimental-New",
+                        "role_arn": "arn:aws:iam::421435808696:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "444720132806",
+                        "alias": "cep-c360-stage",
+                        "role_arn": "arn:aws:iam::444720132806:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "456526978076",
+                        "alias": "IT-Analytics-PROD",
+                        "role_arn": "arn:aws:iam::456526978076:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "476033651274",
+                        "alias": "IT-Biochip",
+                        "role_arn": "arn:aws:iam::476033651274:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "482057569189",
+                        "alias": "IT-VALD-DR",
+                        "role_arn": "arn:aws:iam::482057569189:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "565209677751",
+                        "alias": "cep-aws-ops-account",
+                        "role_arn": "arn:aws:iam::565209677751:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "607287305442",
+                        "alias": "IT-Backup",
+                        "role_arn": "arn:aws:iam::607287305442:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "672555288864",
+                        "alias": "IT-Non-VALD-PROD",
+                        "role_arn": "arn:aws:iam::672555288864:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "703374084898",
+                        "alias": "cep-c360-glassbeam-prod",
+                        "role_arn": "arn:aws:iam::703374084898:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "726927127749",
+                        "alias": "IT-SW-Eng-PROD",
+                        "role_arn": "arn:aws:iam::726927127749:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "750246288501",
+                        "alias": "network-cato-splunk-logs",
+                        "role_arn": "arn:aws:iam::750246288501:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "786193666119",
+                        "alias": "IT-Non-VALD-Non-PROD",
+                        "role_arn": "arn:aws:iam::786193666119:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "813616576434",
+                        "alias": "IT-VALD-PROD",
+                        "role_arn": "arn:aws:iam::813616576434:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "885752725060",
+                        "alias": "IT-SW-Eng-DevOps",
+                        "role_arn": "arn:aws:iam::885752725060:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "921444514991",
+                        "alias": "IT-RND-Gov-PROD",
+                        "role_arn": "arn:aws:iam::921444514991:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "931156846670",
+                        "alias": "cep-aws-exp-acct",
+                        "role_arn": "arn:aws:iam::931156846670:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "943204768464",
+                        "alias": "IT-Change-Management",
+                        "role_arn": "arn:aws:iam::943204768464:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    },
+                    {
+                        "account_id": "994206138878",
+                        "alias": "IT-Shared",
+                        "role_arn": "arn:aws:iam::994206138878:role/csa-linked-write",
+                        "external_id": "8a235ba1-75bf-6f01-8fb3-5105707f8eab"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "org_id": 128853,
+        "name": "midwesttapes.com",
+        "environment_id": "e31c08e0-a354-5c8c-8248-79ad7a1604bc",
+        "data": [
+            {
+                "parent": {
+                    "account_id": "271563910642",
+                    "alias": "mwt-master",
+                    "role_arn": "arn:aws:iam::271563910642:role/csa-payer-write",
+                    "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                },
+                "children": [
+                    {
+                        "account_id": "008270691738",
+                        "alias": "mwt-internal",
+                        "role_arn": "arn:aws:iam::008270691738:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "022811506149",
+                        "alias": "mwt-ecom",
+                        "role_arn": "arn:aws:iam::022811506149:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "058253789961",
+                        "alias": "mwt-hoopla",
+                        "role_arn": "arn:aws:iam::058253789961:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "123468419102",
+                        "alias": "mwt-sap-prod",
+                        "role_arn": "arn:aws:iam::123468419102:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "163527231976",
+                        "alias": "mwt-network",
+                        "role_arn": "arn:aws:iam::163527231976:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "174530848851",
+                        "alias": "mwt-hoopla-dev",
+                        "role_arn": "arn:aws:iam::174530848851:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "279530709713",
+                        "alias": "mwt-sharedservice-test",
+                        "role_arn": "arn:aws:iam::279530709713:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "360788809460",
+                        "alias": "mwt-dreamscape",
+                        "role_arn": "arn:aws:iam::360788809460:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "379917073816",
+                        "alias": "mwt-aft",
+                        "role_arn": "arn:aws:iam::379917073816:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "414026808987",
+                        "alias": "mwt-code",
+                        "role_arn": "arn:aws:iam::414026808987:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "450594436462",
+                        "alias": "mwt-log",
+                        "role_arn": "arn:aws:iam::450594436462:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "466485811719",
+                        "alias": "mwt-sap-nonprod",
+                        "role_arn": "arn:aws:iam::466485811719:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "511517981903",
+                        "alias": "mwt-sap-hub",
+                        "role_arn": "arn:aws:iam::511517981903:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "585830138493",
+                        "alias": "mwt-sap-backup",
+                        "role_arn": "arn:aws:iam::585830138493:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "603955942797",
+                        "alias": "mwt-bellmarker",
+                        "role_arn": "arn:aws:iam::603955942797:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "614651788872",
+                        "alias": "mwt-test",
+                        "role_arn": "arn:aws:iam::614651788872:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "729960212337",
+                        "alias": "mwt-sharedservice-dev",
+                        "role_arn": "arn:aws:iam::729960212337:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "812336342845",
+                        "alias": "mwt-security",
+                        "role_arn": "arn:aws:iam::812336342845:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "873086200601",
+                        "alias": "mwt-test1",
+                        "role_arn": "arn:aws:iam::873086200601:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    },
+                    {
+                        "account_id": "875993331183",
+                        "alias": "mwt-sharedservice-prod",
+                        "role_arn": "arn:aws:iam::875993331183:role/csa-linked-write",
+                        "external_id": "6a70cc36-b86d-1aae-d4c9-f8c30faa97aa"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "org_id": 128856,
+        "name": "qlik.com",
+        "environment_id": "36116213-150c-53a0-8f90-b92e84696f11",
+        "data": [
+            {
+                "parent": {
+                    "account_id": "201226217129",
+                    "alias": "QlikCloud",
+                    "role_arn": "arn:aws:iam::201226217129:role/Share-Cloudwiry-Read-Role",
+                    "external_id": "CW_AiuYTgyI"
+                },
+                "children": [
+                    {
+                        "account_id": "053274942893",
+                        "alias": "qsc-dev",
+                        "role_arn": "arn:aws:iam::053274942893:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_lsyJTLSh"
+                    },
+                    {
+                        "account_id": "059605719771",
+                        "alias": "okta-aws-qliksense-prod",
+                        "role_arn": "arn:aws:iam::059605719771:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_JCMspTY6"
+                    },
+                    {
+                        "account_id": "083712328392",
+                        "alias": "Quality Engineering",
+                        "role_arn": "arn:aws:iam::083712328392:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_71TegSAE"
+                    },
+                    {
+                        "account_id": "186147167493",
+                        "alias": "qliksense-stage-admin",
+                        "role_arn": "arn:aws:iam::186147167493:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_HOYmYJP9"
+                    },
+                    {
+                        "account_id": "459339432002",
+                        "alias": "Data Engineering - Stage",
+                        "role_arn": "arn:aws:iam::459339432002:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_8sKem1xF"
+                    },
+                    {
+                        "account_id": "488894932973",
+                        "alias": "qscb-prod",
+                        "role_arn": "arn:aws:iam::488894932973:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_9u7MPlOS"
+                    },
+                    {
+                        "account_id": "551934637293",
+                        "alias": "QlikCloud Sense AMI",
+                        "role_arn": "arn:aws:iam::551934637293:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_eEDNrZVO"
+                    },
+                    {
+                        "account_id": "579884529269",
+                        "alias": "BDI Dev",
+                        "role_arn": "arn:aws:iam::579884529269:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_UwIcbOMd"
+                    },
+                    {
+                        "account_id": "669710359581",
+                        "alias": "QPaaS",
+                        "role_arn": "arn:aws:iam::669710359581:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_bfdZZVlS"
+                    },
+                    {
+                        "account_id": "789567347299",
+                        "alias": "Bot Account",
+                        "role_arn": "arn:aws:iam::789567347299:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_ohXuCfoI"
+                    },
+                    {
+                        "account_id": "820842798650",
+                        "alias": "RDSense Team",
+                        "role_arn": "arn:aws:iam::820842798650:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_fbppFcQP"
+                    },
+                    {
+                        "account_id": "822859872476",
+                        "alias": "qscb-dev",
+                        "role_arn": "arn:aws:iam::822859872476:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_LXqFJPQu"
+                    },
+                    {
+                        "account_id": "901291795645",
+                        "alias": "qscb-stage",
+                        "role_arn": "arn:aws:iam::901291795645:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_2qMwTopB"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "org_id": 128965,
+        "name": "whoop.com",
+        "environment_id": "b6c2c511-067d-5b99-eecf-4be7d076cfad",
+        "data": [
+            {
+                "parent": {
+                    "account_id": "557651088558",
+                    "alias": "whoop-root",
+                    "role_arn": "arn:aws:iam::557651088558:role/csa-payer-write",
+                    "external_id": "f14b528b-7e32-94da-910f-e6c761e651cb"
+                },
+                "children": [
+                    {
+                        "account_id": "148141096237",
+                        "alias": "Information Technology",
+                        "role_arn": "arn:aws:iam::148141096237:role/csa-linked-read",
+                        "external_id": "f14b528b-7e32-94da-910f-e6c761e651cb"
+                    },
+                    {
+                        "account_id": "150510184408",
+                        "alias": "Cost Intelligence",
+                        "role_arn": "arn:aws:iam::150510184408:role/csa-linked-read",
+                        "external_id": "f14b528b-7e32-94da-910f-e6c761e651cb"
+                    },
+                    {
+                        "account_id": "178999586050",
+                        "alias": "Cassandra",
+                        "role_arn": "arn:aws:iam::178999586050:role/csa-linked-read",
+                        "external_id": "f14b528b-7e32-94da-910f-e6c761e651cb"
+                    },
+                    {
+                        "account_id": "339712718830",
+                        "alias": "Logging",
+                        "role_arn": "arn:aws:iam::339712718830:role/csa-linked-read",
+                        "external_id": "f14b528b-7e32-94da-910f-e6c761e651cb"
+                    },
+                    {
+                        "account_id": "406137478313",
+                        "alias": "Hardware",
+                        "role_arn": "arn:aws:iam::406137478313:role/csa-linked-read",
+                        "external_id": "f14b528b-7e32-94da-910f-e6c761e651cb"
+                    },
+                    {
+                        "account_id": "637423422715",
+                        "alias": "Data Bunker",
+                        "role_arn": "arn:aws:iam::637423422715:role/csa-linked-read",
+                        "external_id": "f14b528b-7e32-94da-910f-e6c761e651cb"
+                    },
+                    {
+                        "account_id": "688238828846",
+                        "alias": "Software Production",
+                        "role_arn": "arn:aws:iam::688238828846:role/csa-linked-read",
+                        "external_id": "f14b528b-7e32-94da-910f-e6c761e651cb"
+                    },
+                    {
+                        "account_id": "841947439462",
+                        "alias": "Business Systems",
+                        "role_arn": "arn:aws:iam::841947439462:role/csa-linked-read",
+                        "external_id": "f14b528b-7e32-94da-910f-e6c761e651cb"
+                    },
+                    {
+                        "account_id": "975050376440",
+                        "alias": "Cybersecurity",
+                        "role_arn": "arn:aws:iam::975050376440:role/csa-linked-read",
+                        "external_id": "f14b528b-7e32-94da-910f-e6c761e651cb"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "org_id": 128969,
+        "name": "sgx.com",
+        "environment_id": "1128e71a-f3ff-47d0-a0cd-85786a632c72",
+        "data": [
+            {
+                "parent": {
+                    "account_id": "748428409313",
+                    "alias": "SGX-MASTER-ACCOUNT",
+                    "role_arn": "arn:aws:iam::748428409313:role/csa-payer-write",
+                    "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                },
+                "children": [
+                    {
+                        "account_id": "028218637560",
+                        "alias": "datasharedservices-prod",
+                        "role_arn": "arn:aws:iam::028218637560:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "030605728290",
+                        "alias": "paco-prod",
+                        "role_arn": "arn:aws:iam::030605728290:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "030793693305",
+                        "alias": "SGX-SPT-Production",
+                        "role_arn": "arn:aws:iam::030793693305:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "044233110505",
+                        "alias": "AWSProd901-SecOps",
+                        "role_arn": "arn:aws:iam::044233110505:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "073209394338",
+                        "alias": "AWSDev901-SecOps-Dev",
+                        "role_arn": "arn:aws:iam::073209394338:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "085729610595",
+                        "alias": "spt-dev",
+                        "role_arn": "arn:aws:iam::085729610595:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "086095545158",
+                        "alias": "datasharedservices-qa",
+                        "role_arn": "arn:aws:iam::086095545158:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "092334198863",
+                        "alias": "SGX-TEC-SPT-NON-PROD",
+                        "role_arn": "arn:aws:iam::092334198863:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "099723420067",
+                        "alias": "network-shared-services-dev",
+                        "role_arn": "arn:aws:iam::099723420067:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "122866848421",
+                        "alias": "AWSProd901-SecOps-QA",
+                        "role_arn": "arn:aws:iam::122866848421:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "124803637678",
+                        "alias": "cms-qa",
+                        "role_arn": "arn:aws:iam::124803637678:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "162685797682",
+                        "alias": "mktdataapi-prod",
+                        "role_arn": "arn:aws:iam::162685797682:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "170953346501",
+                        "alias": "sgfindex-dev",
+                        "role_arn": "arn:aws:iam::170953346501:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "176659349437",
+                        "alias": "corpintranetwebsites-dev",
+                        "role_arn": "arn:aws:iam::176659349437:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "231355916811",
+                        "alias": "corpintranetwebsites-qa",
+                        "role_arn": "arn:aws:iam::231355916811:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "234500348488",
+                        "alias": "crossdomainservices-qa",
+                        "role_arn": "arn:aws:iam::234500348488:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "268818229574",
+                        "alias": "tec-innovation",
+                        "role_arn": "arn:aws:iam::268818229574:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "296462715821",
+                        "alias": "cloudautomation-dev",
+                        "role_arn": "arn:aws:iam::296462715821:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "305076270092",
+                        "alias": "sec-edge-qa",
+                        "role_arn": "arn:aws:iam::305076270092:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "332858957176",
+                        "alias": "pts-dev",
+                        "role_arn": "arn:aws:iam::332858957176:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "336899018702",
+                        "alias": "mktdataapi-qa",
+                        "role_arn": "arn:aws:iam::336899018702:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "339712844202",
+                        "alias": "giftdr-prod",
+                        "role_arn": "arn:aws:iam::339712844202:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "350658865066",
+                        "alias": "SGX-APIGATEWAY-QA",
+                        "role_arn": "arn:aws:iam::350658865066:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "352819676516",
+                        "alias": "sgfindex-prod",
+                        "role_arn": "arn:aws:iam::352819676516:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "354221940754",
+                        "alias": "AWSQA953-SGX-TEC-TOP",
+                        "role_arn": "arn:aws:iam::354221940754:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "392353693404",
+                        "alias": "SGX-TEC-TMD-PROD",
+                        "role_arn": "arn:aws:iam::392353693404:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "404013826822",
+                        "alias": "cms-prod",
+                        "role_arn": "arn:aws:iam::404013826822:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "421155320518",
+                        "alias": "SGX-INVESTORS-PROD",
+                        "role_arn": "arn:aws:iam::421155320518:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "423401472506",
+                        "alias": "SGX-INVESTORS-DEV",
+                        "role_arn": "arn:aws:iam::423401472506:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "428037554700",
+                        "alias": "sgxgroup-qa",
+                        "role_arn": "arn:aws:iam::428037554700:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "439719004233",
+                        "alias": "cms-dev",
+                        "role_arn": "arn:aws:iam::439719004233:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "454043307237",
+                        "alias": "apigateway-prod",
+                        "role_arn": "arn:aws:iam::454043307237:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "465698288361",
+                        "alias": "SGX-APIGATEWAY-DEV",
+                        "role_arn": "arn:aws:iam::465698288361:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "471112883604",
+                        "alias": "onlineedu-qa",
+                        "role_arn": "arn:aws:iam::471112883604:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "482980781065",
+                        "alias": "shared-infra-services-dev",
+                        "role_arn": "arn:aws:iam::482980781065:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "493708229925",
+                        "alias": "nff-dev",
+                        "role_arn": "arn:aws:iam::493708229925:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "494342575228",
+                        "alias": "network-shared-services-prod",
+                        "role_arn": "arn:aws:iam::494342575228:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "498480083608",
+                        "alias": "SGX-TEC-TMD-DEV-ACCOUNT",
+                        "role_arn": "arn:aws:iam::498480083608:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "503312107910",
+                        "alias": "tools-shared-services-prod",
+                        "role_arn": "arn:aws:iam::503312107910:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "544767465043",
+                        "alias": "SGX-TEC-TOP-PROD",
+                        "role_arn": "arn:aws:iam::544767465043:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "546206844985",
+                        "alias": "datacap-qa",
+                        "role_arn": "arn:aws:iam::546206844985:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "590183962248",
+                        "alias": "stargate-qa",
+                        "role_arn": "arn:aws:iam::590183962248:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "603286041077",
+                        "alias": "datacap-prod",
+                        "role_arn": "arn:aws:iam::603286041077:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "657118540535",
+                        "alias": "gift-prod",
+                        "role_arn": "arn:aws:iam::657118540535:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "669406259646",
+                        "alias": "paco-qa",
+                        "role_arn": "arn:aws:iam::669406259646:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "679128113297",
+                        "alias": "gift-backup-prod",
+                        "role_arn": "arn:aws:iam::679128113297:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "681656376307",
+                        "alias": "datasharedservices-dev",
+                        "role_arn": "arn:aws:iam::681656376307:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "700557858108",
+                        "alias": "sgx-cloud-dashboard",
+                        "role_arn": "arn:aws:iam::700557858108:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "715193990051",
+                        "alias": "sgxcomregco-dev",
+                        "role_arn": "arn:aws:iam::715193990051:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "741347747982",
+                        "alias": "slm-dev",
+                        "role_arn": "arn:aws:iam::741347747982:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "742861638229",
+                        "alias": "corpintranetwebsites-prod",
+                        "role_arn": "arn:aws:iam::742861638229:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "746739649258",
+                        "alias": "sgxgroup-dev",
+                        "role_arn": "arn:aws:iam::746739649258:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "768624970699",
+                        "alias": "botframework-prod",
+                        "role_arn": "arn:aws:iam::768624970699:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "773693989308",
+                        "alias": "cdpestatement-qa",
+                        "role_arn": "arn:aws:iam::773693989308:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "786793572646",
+                        "alias": "gift-tcs-dev",
+                        "role_arn": "arn:aws:iam::786793572646:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "794810319507",
+                        "alias": "iasandbox-qa",
+                        "role_arn": "arn:aws:iam::794810319507:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "808128124090",
+                        "alias": "iasandbox-prod",
+                        "role_arn": "arn:aws:iam::808128124090:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "825647190874",
+                        "alias": "network-shared-services-qa",
+                        "role_arn": "arn:aws:iam::825647190874:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "829853261271",
+                        "alias": "AWSProd902-SecLogs",
+                        "role_arn": "arn:aws:iam::829853261271:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "837542179684",
+                        "alias": "cdpestatement-dev",
+                        "role_arn": "arn:aws:iam::837542179684:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "867160794462",
+                        "alias": "crossdomainservices-dev",
+                        "role_arn": "arn:aws:iam::867160794462:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "877023592378",
+                        "alias": "investors-qa2",
+                        "role_arn": "arn:aws:iam::877023592378:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "884178009880",
+                        "alias": "slm-prod",
+                        "role_arn": "arn:aws:iam::884178009880:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "884588630681",
+                        "alias": "tools-shared-services-qa",
+                        "role_arn": "arn:aws:iam::884588630681:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "897506673039",
+                        "alias": "sgfindex-qa",
+                        "role_arn": "arn:aws:iam::897506673039:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "902200086233",
+                        "alias": "iasandbox-dev",
+                        "role_arn": "arn:aws:iam::902200086233:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "908576315874",
+                        "alias": "paco-dev",
+                        "role_arn": "arn:aws:iam::908576315874:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "909474459701",
+                        "alias": "gift-dev",
+                        "role_arn": "arn:aws:iam::909474459701:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "912342084878",
+                        "alias": "cdpestatement-prod",
+                        "role_arn": "arn:aws:iam::912342084878:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "914653416611",
+                        "alias": "mktdataapi-dev",
+                        "role_arn": "arn:aws:iam::914653416611:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "925588620228",
+                        "alias": "sgxcomregco-qa",
+                        "role_arn": "arn:aws:iam::925588620228:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "926723121654",
+                        "alias": "sec-edge-prod",
+                        "role_arn": "arn:aws:iam::926723121654:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "932656944165",
+                        "alias": "sgxgroup-prod",
+                        "role_arn": "arn:aws:iam::932656944165:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "958444320687",
+                        "alias": "SGX-INVESTORS-QA",
+                        "role_arn": "arn:aws:iam::958444320687:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "972576532965",
+                        "alias": "sgxcomregco-prod",
+                        "role_arn": "arn:aws:iam::972576532965:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "975050008562",
+                        "alias": "alkira-qa",
+                        "role_arn": "arn:aws:iam::975050008562:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    },
+                    {
+                        "account_id": "988253918746",
+                        "alias": "cloudautomation-prod",
+                        "role_arn": "arn:aws:iam::988253918746:role/csa-linked-write",
+                        "external_id": "c88a7645-0ee3-1a89-7dc2-eb0acd11ec7d"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "org_id": 129009,
+        "name": "beckman.com",
+        "environment_id": "2f522de4-8e40-5c93-e4c3-c992100972e6",
+        "data": [
+            {
+                "parent": {
+                    "account_id": "233202269867",
+                    "alias": "BEC Master",
+                    "role_arn": "arn:aws:iam::233202269867:role/Share-csa-Write-Role",
+                    "external_id": "ext-e7rss8g444"
+                },
+                "children": [
+                    {
+                        "account_id": "096813818060",
+                        "alias": "eCommerce Production",
+                        "role_arn": "arn:aws:iam::096813818060:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "145790327876",
+                        "alias": "BEC AWS IT NONPROD",
+                        "role_arn": "arn:aws:iam::145790327876:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "164465574655",
+                        "alias": "AWS GrantsPass",
+                        "role_arn": "arn:aws:iam::164465574655:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "175577787295",
+                        "alias": "BEC-AWS-Sandbox",
+                        "role_arn": "arn:aws:iam::175577787295:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "288942032637",
+                        "alias": "AWS-SHAREDSERVICES",
+                        "role_arn": "arn:aws:iam::288942032637:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "327333652600",
+                        "alias": "BEC AWS IP PROD",
+                        "role_arn": "arn:aws:iam::327333652600:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "375365075029",
+                        "alias": "BEC AWS IP NONPROD",
+                        "role_arn": "arn:aws:iam::375365075029:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "390241178905",
+                        "alias": "BEC AWS IT PROD",
+                        "role_arn": "arn:aws:iam::390241178905:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "452928780061",
+                        "alias": "aws-pcc-software-nonprod",
+                        "role_arn": "arn:aws:iam::452928780061:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "473352127615",
+                        "alias": "BEC-BURA",
+                        "role_arn": "arn:aws:iam::473352127615:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "474955964308",
+                        "alias": "Log archive",
+                        "role_arn": "arn:aws:iam::474955964308:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "596072782147",
+                        "alias": "aws-bec-arras-rd",
+                        "role_arn": "arn:aws:iam::596072782147:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "622480497237",
+                        "alias": "Audit",
+                        "role_arn": "arn:aws:iam::622480497237:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "675166883587",
+                        "alias": "Beckman Coulter Enterprise Master Account",
+                        "role_arn": "arn:aws:iam::675166883587:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "675823765016",
+                        "alias": "DxONE WM NON-PROD",
+                        "role_arn": "arn:aws:iam::675823765016:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "709292407603",
+                        "alias": "BEC-AWS-LSDX",
+                        "role_arn": "arn:aws:iam::709292407603:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "711304788576",
+                        "alias": "BEC-AWS-EXPERIMENTAL",
+                        "role_arn": "arn:aws:iam::711304788576:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "733071068973",
+                        "alias": "BEC_WITS_PROD",
+                        "role_arn": "arn:aws:iam::733071068973:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "844653562809",
+                        "alias": "BEC Dx",
+                        "role_arn": "arn:aws:iam::844653562809:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    },
+                    {
+                        "account_id": "846200999145",
+                        "alias": "bec-aws-transit",
+                        "role_arn": "arn:aws:iam::846200999145:role/Share-csa-Write-Role",
+                        "external_id": "ext-e7rss8g444"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "org_id": 129013,
+        "name": "onespan.com",
+        "environment_id": "e389a8ff-a594-57ab-8ec3-b04437347931",
+        "data": [
+            {
+                "parent": {
+                    "account_id": "237502068359",
+                    "alias": "OneSpan [IT]",
+                    "role_arn": "arn:aws:iam::237502068359:role/Share-csa-Write-Role",
+                    "external_id": "ext-e7rss8i23"
+                },
+                "children": [
+                    {
+                        "account_id": "017057901031",
+                        "alias": "BruQT",
+                        "role_arn": "arn:aws:iam::017057901031:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "036744247301",
+                        "alias": "OneSpan Training",
+                        "role_arn": "arn:aws:iam::036744247301:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "044680988742",
+                        "alias": "Devops Cias One",
+                        "role_arn": "arn:aws:iam::044680988742:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "064856222263",
+                        "alias": "DataWarehouse Development",
+                        "role_arn": "arn:aws:iam::064856222263:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "070088266060",
+                        "alias": "AWS - PSDev",
+                        "role_arn": "arn:aws:iam::070088266060:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "130778061282",
+                        "alias": "AWS TID Shared Services",
+                        "role_arn": "arn:aws:iam::130778061282:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "152299843975",
+                        "alias": "GS Demo",
+                        "role_arn": "arn:aws:iam::152299843975:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "158420279832",
+                        "alias": "Singapore TAM",
+                        "role_arn": "arn:aws:iam::158420279832:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "212556536293",
+                        "alias": "AWS TID Management",
+                        "role_arn": "arn:aws:iam::212556536293:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "241864508914",
+                        "alias": "EMEA TAM",
+                        "role_arn": "arn:aws:iam::241864508914:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "242139216107",
+                        "alias": "BruCS_Test",
+                        "role_arn": "arn:aws:iam::242139216107:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "277962658203",
+                        "alias": "AWS - SecOps",
+                        "role_arn": "arn:aws:iam::277962658203:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "356352950292",
+                        "alias": "IT-Services Production",
+                        "role_arn": "arn:aws:iam::356352950292:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "406413375622",
+                        "alias": "DataWarehouse Production",
+                        "role_arn": "arn:aws:iam::406413375622:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "434380886295",
+                        "alias": "AWS - SCC",
+                        "role_arn": "arn:aws:iam::434380886295:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "457652989418",
+                        "alias": "AWS_mob-app-shielding",
+                        "role_arn": "arn:aws:iam::457652989418:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "523520030623",
+                        "alias": "Dev Cias One",
+                        "role_arn": "arn:aws:iam::523520030623:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "536356530183",
+                        "alias": "AWS-R&D Bordeaux",
+                        "role_arn": "arn:aws:iam::536356530183:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "599329988563",
+                        "alias": "AWS Lab-Devops",
+                        "role_arn": "arn:aws:iam::599329988563:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "605111634786",
+                        "alias": "TID_PROD Cias One",
+                        "role_arn": "arn:aws:iam::605111634786:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "622868835668",
+                        "alias": "AWS-Vacman-Normad1",
+                        "role_arn": "arn:aws:iam::622868835668:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "692003557537",
+                        "alias": "AWS-EMEA-PS",
+                        "role_arn": "arn:aws:iam::692003557537:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "697022545172",
+                        "alias": "AWS-EngFrontend-VIE",
+                        "role_arn": "arn:aws:iam::697022545172:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "716750525270",
+                        "alias": "Demo Cias One",
+                        "role_arn": "arn:aws:iam::716750525270:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "730263949499",
+                        "alias": "IT-Services Test",
+                        "role_arn": "arn:aws:iam::730263949499:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "807688915290",
+                        "alias": "AWS DNS-Devops",
+                        "role_arn": "arn:aws:iam::807688915290:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "847381378462",
+                        "alias": "Push Cias One",
+                        "role_arn": "arn:aws:iam::847381378462:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "882152558735",
+                        "alias": "Enterprise Architect Dev",
+                        "role_arn": "arn:aws:iam::882152558735:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "892343542742",
+                        "alias": "AWS_ENG_Frontend",
+                        "role_arn": "arn:aws:iam::892343542742:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    },
+                    {
+                        "account_id": "949638004509",
+                        "alias": "AWS-RnD-Training-Test",
+                        "role_arn": "arn:aws:iam::949638004509:role/CSA-Write-Linked",
+                        "external_id": "ext-e7rss8i23"
+                    }
+                ]
+            },
+            {
+                "parent": {
+                    "account_id": "184115302251",
+                    "alias": "Dealflo Production v2",
+                    "role_arn": "arn:aws:iam::184115302251:role/Share-csa-Write-Role",
+                    "external_id": "ext-jwb10jrvc"
+                },
+                "children": [
+                    {
+                        "account_id": "042160187840",
+                        "alias": "Dealflo Dev New",
+                        "role_arn": "arn:aws:iam::042160187840:role/CSA-Write-Linked",
+                        "external_id": "ext-jwb10jrvc"
+                    },
+                    {
+                        "account_id": "512566459004",
+                        "alias": "Dealflo Dev V2",
+                        "role_arn": "arn:aws:iam::512566459004:role/CSA-Write-Linked",
+                        "external_id": "ext-jwb10jrvc"
+                    },
+                    {
+                        "account_id": "606826742581",
+                        "alias": "Dealflo Savings account",
+                        "role_arn": "arn:aws:iam::606826742581:role/CSA-Write-Linked",
+                        "external_id": "ext-jwb10jrvc"
+                    },
+                    {
+                        "account_id": "841269956352",
+                        "alias": "Neal Jooron",
+                        "role_arn": "arn:aws:iam::841269956352:role/CSA-Write-Linked",
+                        "external_id": "ext-jwb10jrvc"
+                    }
+                ]
+            },
+            {
+                "parent": {
+                    "account_id": "077921181633",
+                    "alias": "COPS",
+                    "role_arn": "arn:aws:iam::077921181633:role/Share-csa-Write-Role",
+                    "external_id": "ext-Jrpkr1gJPR"
+                },
+                "children": [
+                    {
+                        "account_id": "246806011301",
+                        "alias": "Dev Manager",
+                        "role_arn": "arn:aws:iam::246806011301:role/CSA-Write-Linked",
+                        "external_id": "ext-Jrpkr1gJPR"
+                    },
+                    {
+                        "account_id": "447453508468",
+                        "alias": "PS Manager",
+                        "role_arn": "arn:aws:iam::447453508468:role/CSA-Write-Linked",
+                        "external_id": "ext-Jrpkr1gJPR"
+                    },
+                    {
+                        "account_id": "558779467162",
+                        "alias": "DESJARDINS COPS",
+                        "role_arn": "arn:aws:iam::558779467162:role/CSA-Write-Linked",
+                        "external_id": "ext-Jrpkr1gJPR"
+                    }
+                ]
+            },
+            {
+                "parent": {
+                    "account_id": "192997391099",
+                    "alias": "eSignLive",
+                    "role_arn": "arn:aws:iam::192997391099:role/Share-csa-Write-Role",
+                    "external_id": "ext-gPSCf23qE"
+                },
+                "children": []
+            },
+            {
+                "parent": {
+                    "account_id": "526846933550",
+                    "alias": "OneSpan Global Platform",
+                    "role_arn": "arn:aws:iam::526846933550:role/Share-CSA-Write-Role-root",
+                    "external_id": "ext-567c2f738444"
+                },
+                "children": [
+                    {
+                        "account_id": "082216427652",
+                        "alias": "management-tools",
+                        "role_arn": "arn:aws:iam::082216427652:role/CSA-Write-Linked",
+                        "external_id": "ext-567c2f738444"
+                    },
+                    {
+                        "account_id": "162211297797",
+                        "alias": "poc-workload-2-internal",
+                        "role_arn": "arn:aws:iam::162211297797:role/CSA-Write-Linked",
+                        "external_id": "ext-567c2f738444"
+                    },
+                    {
+                        "account_id": "278244769143",
+                        "alias": "workload-network-poc",
+                        "role_arn": "arn:aws:iam::278244769143:role/CSA-Write-Linked",
+                        "external_id": "ext-567c2f738444"
+                    },
+                    {
+                        "account_id": "347985210110",
+                        "alias": "security-audits",
+                        "role_arn": "arn:aws:iam::347985210110:role/CSA-Write-Linked",
+                        "external_id": "ext-567c2f738444"
+                    },
+                    {
+                        "account_id": "510967984405",
+                        "alias": "Workloads Platform External",
+                        "role_arn": "arn:aws:iam::510967984405:role/CSA-Write-Linked",
+                        "external_id": "ext-567c2f738444"
+                    },
+                    {
+                        "account_id": "515670720985",
+                        "alias": "Workloads Platform Internal",
+                        "role_arn": "arn:aws:iam::515670720985:role/CSA-Write-Linked",
+                        "external_id": "ext-567c2f738444"
+                    },
+                    {
+                        "account_id": "520527050585",
+                        "alias": "infrastructures-network-external",
+                        "role_arn": "arn:aws:iam::520527050585:role/CSA-Write-Linked",
+                        "external_id": "ext-567c2f738444"
+                    },
+                    {
+                        "account_id": "587469978013",
+                        "alias": "testing-internal",
+                        "role_arn": "arn:aws:iam::587469978013:role/CSA-Write-Linked",
+                        "external_id": "ext-567c2f738444"
+                    },
+                    {
+                        "account_id": "599653262937",
+                        "alias": "security-poc",
+                        "role_arn": "arn:aws:iam::599653262937:role/CSA-Write-Linked",
+                        "external_id": "ext-567c2f738444"
+                    },
+                    {
+                        "account_id": "615438843985",
+                        "alias": "workloads-digipass-internal",
+                        "role_arn": "arn:aws:iam::615438843985:role/CSA-Write-Linked",
+                        "external_id": "ext-567c2f738444"
+                    },
+                    {
+                        "account_id": "617008286818",
+                        "alias": "network-poc",
+                        "role_arn": "arn:aws:iam::617008286818:role/CSA-Write-Linked",
+                        "external_id": "ext-567c2f738444"
+                    },
+                    {
+                        "account_id": "707573998928",
+                        "alias": "infrastructures-network-internal",
+                        "role_arn": "arn:aws:iam::707573998928:role/CSA-Write-Linked",
+                        "external_id": "ext-567c2f738444"
+                    },
+                    {
+                        "account_id": "764839518380",
+                        "alias": "operations-access-control",
+                        "role_arn": "arn:aws:iam::764839518380:role/CSA-Write-Linked",
+                        "external_id": "ext-567c2f738444"
+                    },
+                    {
+                        "account_id": "795515068051",
+                        "alias": "workloads-sign-internal",
+                        "role_arn": "arn:aws:iam::795515068051:role/CSA-Write-Linked",
+                        "external_id": "ext-567c2f738444"
+                    },
+                    {
+                        "account_id": "797295923738",
+                        "alias": "workloads-digipass-external",
+                        "role_arn": "arn:aws:iam::797295923738:role/CSA-Write-Linked",
+                        "external_id": "ext-567c2f738444"
+                    },
+                    {
+                        "account_id": "813373846468",
+                        "alias": "workload-test2",
+                        "role_arn": "arn:aws:iam::813373846468:role/CSA-Write-Linked",
+                        "external_id": "ext-567c2f738444"
+                    },
+                    {
+                        "account_id": "889543120130",
+                        "alias": "poc-workload-internal",
+                        "role_arn": "arn:aws:iam::889543120130:role/CSA-Write-Linked",
+                        "external_id": "ext-567c2f738444"
+                    },
+                    {
+                        "account_id": "941995423637",
+                        "alias": "workloads-sign-external",
+                        "role_arn": "arn:aws:iam::941995423637:role/CSA-Write-Linked",
+                        "external_id": "ext-567c2f738444"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "org_id": 129019,
+        "name": "cytiva.com",
+        "environment_id": "bbff07a2-a9fe-5ead-3adb-15957c1f7d8e",
+        "data": [
+            {
+                "parent": {
+                    "account_id": "563976656569",
+                    "alias": "ls-aws-ctl-master",
+                    "role_arn": "arn:aws:iam::563976656569:role/Share-csa-Write-Role",
+                    "external_id": "ext-e7rss8g685"
+                },
+                "children": [
+                    {
+                        "account_id": "012368639225",
+                        "alias": "cyt-aws-cdo-iot-prod",
+                        "role_arn": "arn:aws:iam::012368639225:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "017721612337",
+                        "alias": "cyt-aws-cdo-uya-prod",
+                        "role_arn": "arn:aws:iam::017721612337:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "031847985766",
+                        "alias": "ald-aws-infra-prod",
+                        "role_arn": "arn:aws:iam::031847985766:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "037774007191",
+                        "alias": "pll-aws-lsdts-ganymede-np-dev",
+                        "role_arn": "arn:aws:iam::037774007191:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "050423457538",
+                        "alias": "cyt-aws-infra-prod",
+                        "role_arn": "arn:aws:iam::050423457538:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "051630194006",
+                        "alias": "cyt-aws-infra-non-prod",
+                        "role_arn": "arn:aws:iam::051630194006:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "055151346975",
+                        "alias": "pll-aws-rd-iot-oenoflow-prod",
+                        "role_arn": "arn:aws:iam::055151346975:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "060846938567",
+                        "alias": "pll-aws-bis-np-dev",
+                        "role_arn": "arn:aws:iam::060846938567:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "064555834030",
+                        "alias": "cyt-aws-cdo-devsecops-np-poc1",
+                        "role_arn": "arn:aws:iam::064555834030:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "073988958072",
+                        "alias": "cyt-aws-tpm-esg-np-dev",
+                        "role_arn": "arn:aws:iam::073988958072:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "102504144248",
+                        "alias": "pll-aws-lsdts-ganymede-prod",
+                        "role_arn": "arn:aws:iam::102504144248:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "108910359860",
+                        "alias": "cyt-aws-it-opcenter-np-dev",
+                        "role_arn": "arn:aws:iam::108910359860:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "112375817288",
+                        "alias": "pll-aws-lsdts-catalina-np-stage",
+                        "role_arn": "arn:aws:iam::112375817288:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "129362117582",
+                        "alias": "cyt-aws-engineering-pdm-prod",
+                        "role_arn": "arn:aws:iam::129362117582:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "134664505253",
+                        "alias": "pll-aws-rd-iot-brewpro-np-dev",
+                        "role_arn": "arn:aws:iam::134664505253:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "136337161760",
+                        "alias": "cyt-aws-tpm-tools-np-dev",
+                        "role_arn": "arn:aws:iam::136337161760:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "141247252460",
+                        "alias": "cyt-aws-cdo-iot-np-dev",
+                        "role_arn": "arn:aws:iam::141247252460:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "141279745280",
+                        "alias": "cyt-aws-tpm-esg-np-stage",
+                        "role_arn": "arn:aws:iam::141279745280:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "152618934611",
+                        "alias": "pll-aws-rd-iot-da-prod",
+                        "role_arn": "arn:aws:iam::152618934611:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "174394923216",
+                        "alias": "pll-aws-lsdts-trebuchet-np-stage",
+                        "role_arn": "arn:aws:iam::174394923216:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "174724024565",
+                        "alias": "cyt-aws-eco-gears-np",
+                        "role_arn": "arn:aws:iam::174724024565:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "176275816545",
+                        "alias": "cyt-aws-cdo-prodigy-np-dev",
+                        "role_arn": "arn:aws:iam::176275816545:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "180179616850",
+                        "alias": "cyt-aws-cdo-labcloud-np-qa",
+                        "role_arn": "arn:aws:iam::180179616850:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "194884354514",
+                        "alias": "cyt-aws-cdo-ds-np-dev",
+                        "role_arn": "arn:aws:iam::194884354514:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "206056769039",
+                        "alias": "pll-aws-rd-iot-np-dev",
+                        "role_arn": "arn:aws:iam::206056769039:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "234476063562",
+                        "alias": "cyt-aws-cdo-gosilico-np-dev",
+                        "role_arn": "arn:aws:iam::234476063562:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "235207302874",
+                        "alias": "pll-aws-lsdts-catalina-np-dev",
+                        "role_arn": "arn:aws:iam::235207302874:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "246502326088",
+                        "alias": "cyt-aws-cdo-devsecops-np-poc3",
+                        "role_arn": "arn:aws:iam::246502326088:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "248919425857",
+                        "alias": "pll-aws-rd-iot-oenoflow-np",
+                        "role_arn": "arn:aws:iam::248919425857:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "262945416736",
+                        "alias": "cyt-aws-cde-d3-prod",
+                        "role_arn": "arn:aws:iam::262945416736:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "266384293663",
+                        "alias": "pll-aws-lsdts-trebuchet-prod",
+                        "role_arn": "arn:aws:iam::266384293663:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "272364283036",
+                        "alias": "cyt-aws-cdo-devsecops-np-poc8",
+                        "role_arn": "arn:aws:iam::272364283036:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "282119008400",
+                        "alias": "Audit",
+                        "role_arn": "arn:aws:iam::282119008400:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "282254884706",
+                        "alias": "pll-aws-rd-iot-da-np-dev",
+                        "role_arn": "arn:aws:iam::282254884706:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "311883954260",
+                        "alias": "cyt-aws-rd-gosilico-prod",
+                        "role_arn": "arn:aws:iam::311883954260:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "318214130788",
+                        "alias": "pll-aws-lsdts-trebuchet-np-dev",
+                        "role_arn": "arn:aws:iam::318214130788:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "337230495860",
+                        "alias": "cyt-aws-science-unicorn-np-dev",
+                        "role_arn": "arn:aws:iam::337230495860:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "350729003966",
+                        "alias": "cyt-aws-cdo-labcloud-demo",
+                        "role_arn": "arn:aws:iam::350729003966:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "365552636152",
+                        "alias": "cyt-aws-cgt-chronicle-np-qa",
+                        "role_arn": "arn:aws:iam::365552636152:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "368475234361",
+                        "alias": "cyt-aws-cdo-data-np",
+                        "role_arn": "arn:aws:iam::368475234361:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "370812085817",
+                        "alias": "lsc-aws-infra-data-lake-prod",
+                        "role_arn": "arn:aws:iam::370812085817:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "371656549970",
+                        "alias": "cyt-aws-cdo-shared-np-sandbox",
+                        "role_arn": "arn:aws:iam::371656549970:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "382828535717",
+                        "alias": "cyt-aws-cdo-devsecops-np-poc9",
+                        "role_arn": "arn:aws:iam::382828535717:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "388321777674",
+                        "alias": "cyt-aws-cdo-devsecops-np-poc2",
+                        "role_arn": "arn:aws:iam::388321777674:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "394881925497",
+                        "alias": "cyt-aws-mw-apps-np",
+                        "role_arn": "arn:aws:iam::394881925497:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "403789678509",
+                        "alias": "cyt-aws-tpm-signy-np",
+                        "role_arn": "arn:aws:iam::403789678509:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "403800618729",
+                        "alias": "cyt-aws-cdo-prodigy-prod",
+                        "role_arn": "arn:aws:iam::403800618729:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "422175671861",
+                        "alias": "pll-aws-lsdts-catalina-prod",
+                        "role_arn": "arn:aws:iam::422175671861:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "437423870964",
+                        "alias": "cyt-aws-cgt-chronicle-np-test",
+                        "role_arn": "arn:aws:iam::437423870964:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "438666724313",
+                        "alias": "cyt-aws-tpm-esg-prod",
+                        "role_arn": "arn:aws:iam::438666724313:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "441860809015",
+                        "alias": "cyt-aws-cdo-iot-demo",
+                        "role_arn": "arn:aws:iam::441860809015:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "463519616150",
+                        "alias": "cyt-aws-cdo-gosilico-prod",
+                        "role_arn": "arn:aws:iam::463519616150:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "465322591109",
+                        "alias": "lsc-aws-infra-data-lake-np",
+                        "role_arn": "arn:aws:iam::465322591109:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "470688256084",
+                        "alias": "cyt-aws-cdo-gosilico-np-demo",
+                        "role_arn": "arn:aws:iam::470688256084:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "471921385467",
+                        "alias": "cyt-aws-cdo-gosilico-np-stage",
+                        "role_arn": "arn:aws:iam::471921385467:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "483457243754",
+                        "alias": "cyt-aws-science-unicorn-prod",
+                        "role_arn": "arn:aws:iam::483457243754:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "490014178704",
+                        "alias": "cyt-aws-cdo-devsecops-np-poc7",
+                        "role_arn": "arn:aws:iam::490014178704:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "494129483989",
+                        "alias": "pll-aws-lsrd-informatics-prod",
+                        "role_arn": "arn:aws:iam::494129483989:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "506457058169",
+                        "alias": "cyt-aws-cda-dna-prod",
+                        "role_arn": "arn:aws:iam::506457058169:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "507828588155",
+                        "alias": "cyt-aws-rd-automation-prod",
+                        "role_arn": "arn:aws:iam::507828588155:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "513452806672",
+                        "alias": "cyt-aws-mw-apps-prod",
+                        "role_arn": "arn:aws:iam::513452806672:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "520320768264",
+                        "alias": "lsc-aws-infra-image",
+                        "role_arn": "arn:aws:iam::520320768264:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "524124359779",
+                        "alias": "cyt-aws-gxp-apps-prod",
+                        "role_arn": "arn:aws:iam::524124359779:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "546443218613",
+                        "alias": "cyt-aws-cda-dna-np",
+                        "role_arn": "arn:aws:iam::546443218613:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "549233824044",
+                        "alias": "cyt-aws-cdo-devsecops-np-poc6",
+                        "role_arn": "arn:aws:iam::549233824044:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "557890975219",
+                        "alias": "cyt-aws-cdo-uya-np-dev",
+                        "role_arn": "arn:aws:iam::557890975219:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "559090685674",
+                        "alias": "cyt-aws-cdo-devsecops-np-poc5",
+                        "role_arn": "arn:aws:iam::559090685674:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "573000116446",
+                        "alias": "cyt-aws-tpm-tools-np-stage",
+                        "role_arn": "arn:aws:iam::573000116446:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "583328959732",
+                        "alias": "cyt-aws-cdo-labcloud-np-dev",
+                        "role_arn": "arn:aws:iam::583328959732:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "587969848610",
+                        "alias": "cyt-aws-cdo-gosilico-np-qa",
+                        "role_arn": "arn:aws:iam::587969848610:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "597348335346",
+                        "alias": "cyt-aws-cdo-labcloud-stage",
+                        "role_arn": "arn:aws:iam::597348335346:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "598196331478",
+                        "alias": "cyt-aws-gsc-hfsda-prod",
+                        "role_arn": "arn:aws:iam::598196331478:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "619198271944",
+                        "alias": "cyt-aws-cgt-chronicle-np-sandbox",
+                        "role_arn": "arn:aws:iam::619198271944:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "646527234895",
+                        "alias": "cyt-aws-rd-gosilico-np",
+                        "role_arn": "arn:aws:iam::646527234895:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "657418332902",
+                        "alias": "cyt-aws-gxp-apps-np-stage",
+                        "role_arn": "arn:aws:iam::657418332902:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "659451676215",
+                        "alias": "cyt-aws-cdo-devsecops-np-poc",
+                        "role_arn": "arn:aws:iam::659451676215:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "663230238909",
+                        "alias": "cyt-aws-tpm-magic-prod",
+                        "role_arn": "arn:aws:iam::663230238909:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "665607995810",
+                        "alias": "cyt-aws-cde-d3-np",
+                        "role_arn": "arn:aws:iam::665607995810:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "679138637661",
+                        "alias": "cyt-aws-cdo-devsecops-np-poc4",
+                        "role_arn": "arn:aws:iam::679138637661:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "680603441511",
+                        "alias": "pll-aws-lsdts-ganymede-np-stage",
+                        "role_arn": "arn:aws:iam::680603441511:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "689979687466",
+                        "alias": "cyt-aws-cdo-labcloud-np-sandbox",
+                        "role_arn": "arn:aws:iam::689979687466:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "719202677178",
+                        "alias": "cyt-aws-cdo-prodigy-stage",
+                        "role_arn": "arn:aws:iam::719202677178:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "720119665993",
+                        "alias": "pll-aws-rd-iot-brewpro-np-stage",
+                        "role_arn": "arn:aws:iam::720119665993:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "732224512164",
+                        "alias": "cyt-aws-it-opcenter-prod",
+                        "role_arn": "arn:aws:iam::732224512164:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "733846167214",
+                        "alias": "cyt-aws-infra-np-sandbox",
+                        "role_arn": "arn:aws:iam::733846167214:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "736242087361",
+                        "alias": "cyt-aws-rd-downstream-np-sandbox",
+                        "role_arn": "arn:aws:iam::736242087361:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "737062941649",
+                        "alias": "cyt-aws-tpm-tools-prod",
+                        "role_arn": "arn:aws:iam::737062941649:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "743449885711",
+                        "alias": "pll-aws-lsdts-iqdb-np-dev",
+                        "role_arn": "arn:aws:iam::743449885711:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "751747027656",
+                        "alias": "cyt-aws-cdo-prodigy-np-qa",
+                        "role_arn": "arn:aws:iam::751747027656:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "766029086407",
+                        "alias": "pll-aws-rd-aim-np-dev",
+                        "role_arn": "arn:aws:iam::766029086407:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "766210010091",
+                        "alias": "pll-aws-bis-prod",
+                        "role_arn": "arn:aws:iam::766210010091:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "768553705225",
+                        "alias": "pll-aws-rd-iot-brewpro-prod",
+                        "role_arn": "arn:aws:iam::768553705225:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "778806648904",
+                        "alias": "cyt-aws-tpm-signy-prod",
+                        "role_arn": "arn:aws:iam::778806648904:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "790976368693",
+                        "alias": "cyt-aws-cdo-gosilico-np-pentest",
+                        "role_arn": "arn:aws:iam::790976368693:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "798493671099",
+                        "alias": "lsc-aws-infra-workspaces-prod",
+                        "role_arn": "arn:aws:iam::798493671099:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "800246110352",
+                        "alias": "Log archive",
+                        "role_arn": "arn:aws:iam::800246110352:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "820842078405",
+                        "alias": "cyt-aws-cdo-gosilico-np-sandbox",
+                        "role_arn": "arn:aws:iam::820842078405:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "828212965066",
+                        "alias": "pll-aws-rd-iot-brewpro-np-tools",
+                        "role_arn": "arn:aws:iam::828212965066:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "828484952639",
+                        "alias": "pll-aws-rd-iot-oenoflow-np-sandbox",
+                        "role_arn": "arn:aws:iam::828484952639:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "837354740378",
+                        "alias": "lsc-aws-infra-shared-services",
+                        "role_arn": "arn:aws:iam::837354740378:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "841785675715",
+                        "alias": "cyt-aws-it-opcenter-np-stage",
+                        "role_arn": "arn:aws:iam::841785675715:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "856948787471",
+                        "alias": "cyt-aws-hr-prod",
+                        "role_arn": "arn:aws:iam::856948787471:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "896765582910",
+                        "alias": "cyt-aws-cdo-iot-stage",
+                        "role_arn": "arn:aws:iam::896765582910:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "917810659183",
+                        "alias": "lsc-aws-infra-network",
+                        "role_arn": "arn:aws:iam::917810659183:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "929113987804",
+                        "alias": "cyt-aws-cdo-iot-np-qa",
+                        "role_arn": "arn:aws:iam::929113987804:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "939767103405",
+                        "alias": "cyt-aws-eco-gears-prod",
+                        "role_arn": "arn:aws:iam::939767103405:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "944663508363",
+                        "alias": "pll-aws-rd-iot-brewpro-np-test",
+                        "role_arn": "arn:aws:iam::944663508363:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "954511653790",
+                        "alias": "cyt-aws-mod-biacore-prod",
+                        "role_arn": "arn:aws:iam::954511653790:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "971484314326",
+                        "alias": "cyt-aws-tpm-magic-np-stage",
+                        "role_arn": "arn:aws:iam::971484314326:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "980637685041",
+                        "alias": "cyt-aws-tpm-magic-np-dev",
+                        "role_arn": "arn:aws:iam::980637685041:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "991304807111",
+                        "alias": "cyt-aws-dops-spc-np-dev",
+                        "role_arn": "arn:aws:iam::991304807111:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "994508424370",
+                        "alias": "cyt-aws-cdo-labcloud-prod",
+                        "role_arn": "arn:aws:iam::994508424370:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    },
+                    {
+                        "account_id": "995057360946",
+                        "alias": "pll-aws-rd-da-np-dev",
+                        "role_arn": "arn:aws:iam::995057360946:role/all-lsc-host-cloudability-csa-role-1",
+                        "external_id": "ext-e7rss8g685"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "org_id": 129107,
+        "name": "intelerad.com",
+        "environment_id": "8515f486-4c99-5ab2-6de0-2acf7011cbb7",
+        "data": [
+            {
+                "parent": {
+                    "account_id": "873031875931",
+                    "alias": "Intelerad Root acct",
+                    "role_arn": "arn:aws:iam::873031875931:role/Share-Cloudwiry-Read-Role",
+                    "external_id": "CW_wmnvNFI0"
+                },
+                "children": [
+                    {
+                        "account_id": "027633559597",
+                        "alias": "intelerad-innovationlabs-prod",
+                        "role_arn": "arn:aws:iam::027633559597:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "038161360085",
+                        "alias": "intelerad-cloudpacs-staging",
+                        "role_arn": "arn:aws:iam::038161360085:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "069789247726",
+                        "alias": "intelerad-patientportal-prod",
+                        "role_arn": "arn:aws:iam::069789247726:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "086357143528",
+                        "alias": "AmbraHealth Master Account",
+                        "role_arn": "arn:aws:iam::086357143528:role/Share-Cloudwiry-Write-Role",
+                        "external_id": "CW_G4Mi5QLR"
+                    },
+                    {
+                        "account_id": "097975780340",
+                        "alias": "intelerad-odt-clario-cloud-dev",
+                        "role_arn": "arn:aws:iam::097975780340:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "101691741124",
+                        "alias": "intelerad-analytics-prod",
+                        "role_arn": "arn:aws:iam::101691741124:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "112630363803",
+                        "alias": "intelerad-analytics-staging",
+                        "role_arn": "arn:aws:iam::112630363803:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "117970395115",
+                        "alias": "clario-build-dev",
+                        "role_arn": "arn:aws:iam::117970395115:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "139001315071",
+                        "alias": "intelerad-tools",
+                        "role_arn": "arn:aws:iam::139001315071:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "178176967516",
+                        "alias": "intelerad-odt-bigsplit-dev",
+                        "role_arn": "arn:aws:iam::178176967516:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "189609400063",
+                        "alias": "intelerad-cloudops-prod",
+                        "role_arn": "arn:aws:iam::189609400063:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "231720048423",
+                        "alias": "intelerad-cloudris-staging",
+                        "role_arn": "arn:aws:iam::231720048423:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "337731736347",
+                        "alias": "intelerad-pacs-dev",
+                        "role_arn": "arn:aws:iam::337731736347:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "368658184815",
+                        "alias": "intelerad-sre-prod",
+                        "role_arn": "arn:aws:iam::368658184815:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "371313213563",
+                        "alias": "intelerad-cloudinfra-staging",
+                        "role_arn": "arn:aws:iam::371313213563:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "375971864783",
+                        "alias": "intelerad-analytics-test",
+                        "role_arn": "arn:aws:iam::375971864783:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "383458647736",
+                        "alias": "intelerad-iws-staging",
+                        "role_arn": "arn:aws:iam::383458647736:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "396860399777",
+                        "alias": "intelerad-sre-dev",
+                        "role_arn": "arn:aws:iam::396860399777:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "410535398990",
+                        "alias": "intelerad-odt-dbmigration-dev",
+                        "role_arn": "arn:aws:iam::410535398990:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "414952023392",
+                        "alias": "intelerad-bc-prod",
+                        "role_arn": "arn:aws:iam::414952023392:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "426851543684",
+                        "alias": "intelerad-it-prod",
+                        "role_arn": "arn:aws:iam::426851543684:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "429656490274",
+                        "alias": "intelerad-bc-dev",
+                        "role_arn": "arn:aws:iam::429656490274:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "431872258017",
+                        "alias": "intelerad-cloudinfra-prod",
+                        "role_arn": "arn:aws:iam::431872258017:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "442576575068",
+                        "alias": "intelerad-cloudinfra-dev",
+                        "role_arn": "arn:aws:iam::442576575068:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "447161553319",
+                        "alias": "cloudpacs-tools",
+                        "role_arn": "arn:aws:iam::447161553319:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "453958386271",
+                        "alias": "intelerad-ts-dev",
+                        "role_arn": "arn:aws:iam::453958386271:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "470025974537",
+                        "alias": "ims-infosec-dev",
+                        "role_arn": "arn:aws:iam::470025974537:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "554076900781",
+                        "alias": "intelerad-iws-dev",
+                        "role_arn": "arn:aws:iam::554076900781:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "573875704957",
+                        "alias": "intelerad-patportal-dev",
+                        "role_arn": "arn:aws:iam::573875704957:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "581514789096",
+                        "alias": "intelerad-pacs-prod",
+                        "role_arn": "arn:aws:iam::581514789096:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "585443678395",
+                        "alias": "ims-infosec-prod",
+                        "role_arn": "arn:aws:iam::585443678395:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "601722232065",
+                        "alias": "ims-platform-prod",
+                        "role_arn": "arn:aws:iam::601722232065:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "614945970796",
+                        "alias": "intelerad-iws-prod",
+                        "role_arn": "arn:aws:iam::614945970796:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "615821722087",
+                        "alias": "intelerad-clario-cloud-dev",
+                        "role_arn": "arn:aws:iam::615821722087:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "620324701163",
+                        "alias": "intelerad-perf-test",
+                        "role_arn": "arn:aws:iam::620324701163:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "629384384450",
+                        "alias": "intelerad-cloudops-dev",
+                        "role_arn": "arn:aws:iam::629384384450:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "631043943452",
+                        "alias": "Ambra Production",
+                        "role_arn": "arn:aws:iam::631043943452:role/Share-Cloudwiry-Write-Role",
+                        "external_id": "CW_ypyKFtmb"
+                    },
+                    {
+                        "account_id": "651636084274",
+                        "alias": "intelerad-pe-dev",
+                        "role_arn": "arn:aws:iam::651636084274:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "665723159730",
+                        "alias": "intelerad-odt-citiustech-dev",
+                        "role_arn": "arn:aws:iam::665723159730:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "673295524718",
+                        "alias": "intelerad-sales",
+                        "role_arn": "arn:aws:iam::673295524718:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "676166226634",
+                        "alias": "intelerad-it-dev",
+                        "role_arn": "arn:aws:iam::676166226634:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "734899723863",
+                        "alias": "intelerad-automation-prod",
+                        "role_arn": "arn:aws:iam::734899723863:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "770807382018",
+                        "alias": "intelerad-cloudris-dev",
+                        "role_arn": "arn:aws:iam::770807382018:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "774889440183",
+                        "alias": "intelerad-ts-staging",
+                        "role_arn": "arn:aws:iam::774889440183:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "777030549332",
+                        "alias": "intelerad-ts-prod",
+                        "role_arn": "arn:aws:iam::777030549332:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "792686863424",
+                        "alias": "intelerad-bc-staging",
+                        "role_arn": "arn:aws:iam::792686863424:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "808762997108",
+                        "alias": "intelerad-lab",
+                        "role_arn": "arn:aws:iam::808762997108:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "818892500933",
+                        "alias": "intelerad-ev-dev",
+                        "role_arn": "arn:aws:iam::818892500933:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "826909818973",
+                        "alias": "intelerad-docs",
+                        "role_arn": "arn:aws:iam::826909818973:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "830883193581",
+                        "alias": "intelerad-clario-cloud-prod",
+                        "role_arn": "arn:aws:iam::830883193581:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "846739724067",
+                        "alias": "intelerad-ev-prod",
+                        "role_arn": "arn:aws:iam::846739724067:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "871766742406",
+                        "alias": "intelerad-innovationlabs-dev",
+                        "role_arn": "arn:aws:iam::871766742406:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "875762924330",
+                        "alias": "intelerad-ris-prod",
+                        "role_arn": "arn:aws:iam::875762924330:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "959946720450",
+                        "alias": "ims-platform-dev",
+                        "role_arn": "arn:aws:iam::959946720450:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "970835130259",
+                        "alias": "intelerad-ba-dev",
+                        "role_arn": "arn:aws:iam::970835130259:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    },
+                    {
+                        "account_id": "974695594447",
+                        "alias": "intelerad-automation-dev",
+                        "role_arn": "arn:aws:iam::974695594447:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_wmnvNFI0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "org_id": 129108,
+        "name": "highradius.com",
+        "environment_id": "5d413eb7-6772-5481-88a6-e42acc0bf31d",
+        "data": [
+            {
+                "parent": {
+                    "account_id": "228478067913",
+                    "alias": "Bhanu Bobba",
+                    "role_arn": "arn:aws:iam::228478067913:role/Share-Cloudwiry-Read-Role",
+                    "external_id": "CW_oL9nu6tU"
+                },
+                "children": [
+                    {
+                        "account_id": "016017090904",
+                        "alias": "Financial Account",
+                        "role_arn": "arn:aws:iam::016017090904:role/Share-Cloudwiry-Write-Role",
+                        "external_id": "CW_5qMqnA0C"
+                    },
+                    {
+                        "account_id": "211165399105",
+                        "alias": "Rishabh Khater",
+                        "role_arn": "arn:aws:iam::211165399105:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_4EKfVMdX"
+                    },
+                    {
+                        "account_id": "277373382176",
+                        "alias": "IMS Management",
+                        "role_arn": "arn:aws:iam::277373382176:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_WgoOoSwX"
+                    },
+                    {
+                        "account_id": "706627302978",
+                        "alias": "Highradius-Website",
+                        "role_arn": "arn:aws:iam::706627302978:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_LuMOEo1k"
+                    },
+                    {
+                        "account_id": "736052533095",
+                        "alias": "Sandbox",
+                        "role_arn": "arn:aws:iam::736052533095:role/Share-Cloudwiry-Read-Role",
+                        "external_id": "CW_8oqslSQb"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "org_id": 129138,
+        "name": "circleci.com",
+        "environment_id": "3080c119-f330-5594-6aa8-d83f48ee35df",
+        "data": [
+            {
+                "parent": {
+                    "account_id": "183081753049",
+                    "alias": "CircleCI",
+                    "role_arn": "arn:aws:iam::183081753049:role/csa-payer-write",
+                    "external_id": "2kFG93wfHdHwMgKdEWLBaxvMACeo4W6m"
+                },
+                "children": []
+            }
+        ]
+    }
+]
