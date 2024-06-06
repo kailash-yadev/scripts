@@ -3,13 +3,23 @@ import boto3
 
 # CONSTANTS
 # Note: Update the Constants with your specs
+# Dynamodb endpoint url
 ENDPOINT_URL = "http://localhost:8000"
+
+# Table Name in db
 TABLE_NAME = "Accounts"
+
+# Partition key or uuid of the account record
 PARTITION_KEY = "UUID"
 PARTITION_KEY_TYPE = "S"
+
+# Attribute names for rolename, external_id, trustee_id
 ROLE_NAME_ATTRIBUTE = "RoleName"
 EXTERNAL_ID_ATTRIBUTE = "ExternalID"
 TRUSTEE_ID_ATTRIBUTE = "TrusteeID"
+
+
+# Trustee ID is the same constant for all the customers
 TRUSTEE_ACCOUNT_ID = "282711413064"
 
 # TODO: Need to update the mapping of uuid to account id of the account updated during credentialing
@@ -78,12 +88,10 @@ def get_updated_record(conn, uuid):
 
 def main():
     # Read data from JSON file
-    csa_cldy_customer_data = _read_json_file('./csa-and-cldy-customers-data.json')
-    csa_customer_data = _read_json_file('./csa-only-customers-data.json')
-    all_customer_data = csa_cldy_customer_data + csa_customer_data
+    csa_customer_data = _read_json_file('./csa-and-cldy-customers-data.json')
 
     # Process Data for parent account details and linked account details
-    accounts_data = extract_account_data(all_customer_data)
+    accounts_data = extract_account_data(csa_customer_data)
 
     # Connect to the database
     conn = connect_to_db()
